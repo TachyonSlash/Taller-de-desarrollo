@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica 3</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anta&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <h1>Proyecto 3</h1>
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                
+            </div>
+        </div>
+    </div>
+
+        <script>
+
+            let numero = 100;
+            let texto = "Hola mundo";
+            let texto2 = "Hola mundo 2";
+            Boolean = true;
+            let arreglo = [1,2,3,4,5];
+            let arregloCadenas = ["Hola", "Mundo", "Adios"];
+            console.log(arregloCadenas[0]);
+            let arregloMixto = [1, "Hola", true, 2.5];
+            console.log(arregloMixto[3]);
+            arregloMixto[1] = "Mundo";
+            console.log(arregloMixto);
+            let objeto = {
+                nombre: "Juan",
+                edad: 25,
+                telefono: "1234567890"
+            };
+
+            let estudiante = {
+                nombre: "Javier",
+                edad: 19,
+                matricuala: "80599",
+                carrera: "Ing. en Sistemas",
+                materias: ["Tecnologias Web", "Base de Datos", "Desarrollo de Aplicaciones Web"],
+                amigos: [
+                    {
+                        nombre: "Pedro",
+                        edad: 20
+                    },
+                    {
+                        nombre: "Maria",
+                        edad: 19
+                    }
+                ],
+                direccion: {
+                    calle: "Av. Siempre Viva",
+                    numero: 123,
+                    colonia: "Centro",
+                    ciudad: "Springfield"
+                }
+            };
+            console.log(estudiante.materias[1]);
+            console.log(estudiante.amigos[0].edad);
+
+            let a = 20;
+            let b = 10;
+
+            let suma = a + b;
+            let resta = a - b;
+            let multiplicacion = a * b;
+            let division = a / b;
+            let residuo = a % b;
+            console.log(residuo);
+
+            let mayor = a > b;
+            let menor = a < b;
+            let mayorIgual = a >= b;
+            let menorIgual = a <= b;
+            let igual = a == b;
+            let diferente = a != b;
+            
+            if(a != b){
+                console.log("Son diferentes");
+            }else{
+                console.log("Son iguales");
+            }
+
+            let comparacion = a != b ? "Son diferentes" : "Son iguales";
+            console.log(comparacion);
+
+
+        </script>
+    <script 
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous">
+    </script>
+</body>
+</html>

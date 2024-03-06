@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap Page</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&display=swap" rel="stylesheet">
+  <style>
+    .navbar-brand {
+      font-size: 30px;
+      color: gold;
+      font-family: 'Roboto Mono', monospace;
+    }
+    .navbar {
+      background-color: black;
+    }
+  </style>
+
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg py-4 position-absolute w-100" style="z-index: 2;">
+        <a class="navbar-brand" href="#">Oscars 2024</a>
+    </nav>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-interval="3000">
+                <img src="https://www.gardenofmemory.net/content/images/2023/07/oppenheimer-header.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="https://www.barbie-themovie.com/images/share.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item" data-interval="3000">
+                <img src="https://m.media-amazon.com/images/S/pv-target-images/418f791d94eeeea9599373167f26de3334882d9e4b15ec503d597de98af99dbb.jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.hollywoodreporter.com/wp-content/uploads/2022/02/OPPENHEIMER_v02-H-2022.jpg?w=1296" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title">Mejor actor</h5>
+                    <p class="card-text">Ganador a mejor actor.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                    </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.gardenofmemory.net/content/images/2023/07/oppenheimer-header.jpg" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title">Mejor pelicula</h5>
+                    <p class="card-text">Pelicula ganadora a los oscars 2024.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://pyxis.nymag.com/v1/imgs/200/978/13c32f39c04f34b333d560ec3c4757d5a2-oppenheimer-rdj.1x.rsquare.w1400.jpg" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title">Mejor actor de soporte</h5>
+                    <p class="card-text">Ganador a mejor actor de soporte.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="row">
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://theshscourier.com/wp-content/uploads/2023/04/unnamed-22.png" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title">Mejor pelicula animada</h5>
+                    <p class="card-text">Pelicula ganadora a la mejor pelicula animada</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://m.media-amazon.com/images/I/81xnGM8+7+L._UF1000,1000_QL80_.jpg" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title">Mejor soundtrack</h5>
+                    <p class="card-text">Pelicula ganadora a mejor soundtrack.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+          <div class="col-sm-4">
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.gardenofmemory.net/content/images/2023/07/oppenheimer-header.jpg" class="card-img-top" alt="Card image">
+                <div class="card-body">
+                    <h5 class="card-title">Mejores VFXs</h5>
+                    <p class="card-text">Pelicula ganadora a los mejores efectos especiales.</p>
+                    <a href="#" class="btn btn-primary">Go somewhere</a>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+          $('.carousel').carousel({
+            interval: 3000
+          });
+      });
+      </script>
+</body>
+</html>
