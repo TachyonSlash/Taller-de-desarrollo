@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Arreglos</h1>
+
+    <p id="lista1"></p>
+    <p id="lista2"></p>
+    <p id="lista3"></p>
+    <p id="lista4"></p>
+    <p id="lista5"></p>
+    <p id="lista6"></p>
+    <p id="lista7"></p>
+    <p id="lista8"></p>
+
+    <script>
+        const fruits = ['apple', 'banana', 'orange', 'strawberry', 'kiwi'];
+        let size = fruits.length;
+        let text = "<ul>";
+        for (let i = 0; i < size; i++) {
+            text += "<li>" + fruits[i] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("lista1").innerHTML = text;
+        
+        const cars = ['BMW', 'Audi', 'Mercedes', 'Volkswagen', 'Ferrari'];
+        size = cars.length;
+        text = "<ul>";
+        for (let i = 0; i < size; i++) {
+            text += "<li>" + cars[i] + "</li>";
+        }
+        text += "</ul>";
+        document.getElementById("lista2").innerHTML = text;
+
+        
+
+    </script>
+    
+</body>
+</html>
